@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+- create React App
+- configure TailwindCSS
+- Header
+- Routing of App
+- Login form
+- Sign up Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to production
+- Create SignUp User Account
+- Implement Sign In user API
+- created Redux store with userSlice
+- Implemented Signout
+- Update profile api call
+- BugFix: Sign up user displayName and profile pictures updates
+- BugFix: if the user is not logged in logged in Redirect / browse to login Page and vice-versa
+- fetch from TMDB Movie
+- validation && redux && auth
+- Unsubcribed to the onAuthStateChanged callback
+- Add hardcoded values to the constant file.
+- Registered TMDB API and create an app & get access token
+- Get Data from TMDB now playing movies list API
+- custom Hook for now palying Movies
+- create movie slice
+- update store with movies data
+- planning for Maincontainer & Secondary container
+- fetch data for trailer video
+- update store with Trailer video Data
+- Embedded the Youtube and make it autoplay and mute
+- Tailwind classes to make Main Container look awesome
+
+# Features
+
+- Login/Sign up
+  - Sign In / Sign up Form
+  - redirect to Browse
