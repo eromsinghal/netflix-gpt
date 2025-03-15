@@ -101,6 +101,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Embedded the Youtube and make it autoplay and mute
 - Tailwind classes to make Main Container look awesome
 - Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Made the Browse page amazing with tailwind css
+- usePopularMovies Custom hook
 
 # Features
 
