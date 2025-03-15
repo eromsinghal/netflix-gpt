@@ -5,9 +5,13 @@ export const USER_AVETAR =
 "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
 
 export const API_OPTIONS ={
+
   method: 'GET',
   headers: {
     accept: 'application/json',
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmODdmMWY0MTFlN2M1NDI4NDQxZDI2ODUxMTczNGNiNyIsIm5iZiI6MTc0MTYwNDE2Ny45Njk5OTk4LCJzdWIiOiI2N2NlYzU0Nzc1YzlmMWJkMTJlMzA4MzAiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.M0dPDtT8Us5vd7JY3v9wCwWM92eJh3VfwTjtvVzs7JE'
   }
 };
+
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500"
