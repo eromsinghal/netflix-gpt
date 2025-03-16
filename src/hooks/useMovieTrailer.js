@@ -10,11 +10,12 @@ const useMovieTrailer = (movieId) =>
     const getMovieVideos = async () =>
     {
         //950396
-        const data = await fetch("https://api.themoviedb.org/3/movie/950396/videos?language=en-US", API_OPTIONS);
+        console.log(movieId);
+        const data = await fetch("https://api.themoviedb.org/3/movie/"+ movieId +"/videos?language=en-US", API_OPTIONS);
             const json = await data.json();
             console.log(json)
-            //const Id = json?.id
-            //console.log(Id);
+            const Id = json?.id
+            console.log(Id);
 
         
     
@@ -33,7 +34,7 @@ const useMovieTrailer = (movieId) =>
     useEffect(() =>
     {
         getMovieVideos();
-    }, []);
+    }, [movieId]);
 };
 
 export default useMovieTrailer; 

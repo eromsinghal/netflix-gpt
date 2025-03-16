@@ -9,8 +9,7 @@ const VideoBackground = ({ movieId }) =>
 
     
     useMovieTrailer(movieId);
-  
-    //console.log(movieId);
+    console.log(movieId);
     
     return (
     <div className="w-screen">
