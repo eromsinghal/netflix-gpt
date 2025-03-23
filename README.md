@@ -107,6 +107,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Made the Browse page amazing with tailwind css
 - usePopularMovies Custom hook
 - GPT Search Feature
+- GPT Search Page
+- GpT Search Bar
+  -\* Multi-Language Features in our APP
+- Integrate GPT API
 
 # Features
 
